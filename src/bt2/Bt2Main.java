@@ -15,7 +15,15 @@ public class Bt2Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        MyStringBuilder str = new MyStringBuilder("Trường")
+                                .addString(" đại học")
+                                .addString(" Nha Trang ")
+                                .addFloat(1.1f)
+                                .addBool(true);
+//                                .build();
+        str.addString(" bla bla...");
+        
+        System.out.println(str);
     }
-    
+    StringBuilder a;
 }
