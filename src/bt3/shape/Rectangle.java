@@ -5,8 +5,6 @@
  */
 package bt3.shape;
 
-import bt3.shape.Shape;
-
 /**
  *
  * @author Hai Tran Do
