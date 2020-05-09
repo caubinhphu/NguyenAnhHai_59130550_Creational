@@ -5,6 +5,9 @@
  */
 package bt3;
 
+import bt3.shape.ShapeType;
+import bt3.shape.Shape;
+
 /**
  *
  * @author Hai Tran Do
@@ -26,6 +29,7 @@ public class Bt3Main {
         System.out.println(shapeRect.draw());
         System.out.println(shapeCir.draw());
         System.out.println(shapeTri.draw());
+
     }
     
 }

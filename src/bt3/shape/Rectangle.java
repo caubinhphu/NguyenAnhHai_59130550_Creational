@@ -3,7 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package bt3;
+package bt3.shape;
+
+import bt3.shape.Shape;
 
 /**
  *

@@ -5,6 +5,12 @@
  */
 package bt3;
 
+import bt3.shape.Rectangle;
+import bt3.shape.ShapeType;
+import bt3.shape.Shape;
+import bt3.shape.Triangle;
+import bt3.shape.Circle;
+
 /**
  *
  * @author Hai Tran Do
