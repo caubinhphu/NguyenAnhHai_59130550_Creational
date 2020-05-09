@@ -22,7 +22,8 @@ public class Bt3Main {
         Shape shapeRect = shapeFatogy.createShape(ShapeType.rectangle);
         Shape shapeCir = shapeFatogy.createShape(ShapeType.circle);
         Shape shapeTri = shapeFatogy.createShape(ShapeType.triangle);
-          
+        
+        // test singleton
         Shape shapeRect1 = shapeFatogy.createShape(ShapeType.rectangle);
         shapeRect1.setBrush("new Rectangle-brush");
         
