@@ -15,7 +15,17 @@ public class Bt3Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        ShapeFactogy shapeFatogy = new ShapeFactogy();
+        Shape shapeRect = shapeFatogy.createShape(ShapeType.rectangle);
+        Shape shapeCir = shapeFatogy.createShape(ShapeType.circle);
+        Shape shapeTri = shapeFatogy.createShape(ShapeType.triangle);
+          
+        Shape shapeRect1 = shapeFatogy.createShape(ShapeType.rectangle);
+        shapeRect1.setBrush("new Rectangle-brush");
+        
+        System.out.println(shapeRect.draw());
+        System.out.println(shapeCir.draw());
+        System.out.println(shapeTri.draw());
     }
     
 }

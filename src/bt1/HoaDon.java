@@ -24,7 +24,7 @@ public class HoaDon {
     public String toString() {
         String str = header.toString();
         
-        // cool ngầu nhưng dư thừa
+        // cool ngầu nhưng dư thừa ^^
         // str += dsCTDH.stream().map((ct) -> ct.toString()).reduce("", (acc, cur) -> acc + "\n" + cur);
 
         for (CTHD ct : dsCTDH) {

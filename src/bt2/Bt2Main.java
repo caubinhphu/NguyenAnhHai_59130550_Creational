@@ -23,7 +23,7 @@ public class Bt2Main {
 //                                .build();
         str.addString(" bla bla...");
         
+        System.out.println(str.toString());
         System.out.println(str);
     }
-    StringBuilder a;
 }
